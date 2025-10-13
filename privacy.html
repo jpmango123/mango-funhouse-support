@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MangoFunHouse Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; color: #0e1b2b; background: #0a0f1d; }
+    header, main, footer { max-width: 860px; margin: 0 auto; padding: 16px; }
+    .card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 16px; padding: 16px; }
+    a { color: #4fd1ff; text-decoration: none; }
+    nav a { margin-right: 16px; }
+    h1, h2, h3 { color: #ffffff; }
+    p, li, a { color: #d6e2f0; }
+    footer { font-size: 14px; opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="./">Support</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./terms.html">Terms of Use</a>
+    </nav>
+    <h1>Privacy Policy</h1>
+  </header>
+
+  <main class="card">
+    <p>Effective date: <span id="date"></span></p>
+    <p>MangoFunHouse does not collect personal data. We do not use analytics, advertising SDKs, or tracking technologies.</p>
+
+    <h2>Data Collection</h2>
+    <p>We do not collect, store, or share personal information. The app runs entirely on your device.</p>
+
+    <h2>Contact</h2>
+    <p>If you have any questions about this policy, contact us at <a href="mailto:MangoFunhouseAPP@gmail.com">MangoFunhouseAPP@gmail.com</a>.</p>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> MangoFunHouse. All rights reserved.</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('date').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
