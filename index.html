@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MangoFunHouse Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; color: #0e1b2b; background: #0a0f1d; }
+    header, main, footer { max-width: 860px; margin: 0 auto; padding: 16px; }
+    .card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 16px; padding: 16px; }
+    a { color: #4fd1ff; text-decoration: none; }
+    nav a { margin-right: 16px; }
+    h1, h2, h3 { color: #ffffff; }
+    p, li, a { color: #d6e2f0; }
+    .pill { display: inline-block; background: rgba(79, 209, 255, 0.15); border: 1px solid rgba(79, 209, 255, 0.4); color: #bfefff; padding: 6px 10px; border-radius: 999px; font-size: 14px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } }
+    footer { font-size: 14px; opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="./">Support</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./terms.html">Terms of Use</a>
+    </nav>
+    <h1>MangoFunHouse Support</h1>
+    <p class="pill">MangoFunHouse by MangoFunHouse</p>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:MangoFunhouseAPP@gmail.com">MangoFunhouseAPP@gmail.com</a></p>
+      <p>We typically reply within 2–3 business days.</p>
+    </section>
+
+    <section class="card">
+      <h2>About the App</h2>
+      <p>MangoFunHouse is a family-friendly collection of quick, casual games designed for fun with friends and family.</p>
+      <ul>
+        <li>Hangman, Tic-Tac-Toe, Connect Four, Chess, and more</li>
+        <li>Polished visuals and smooth gameplay</li>
+        <li>No account required</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>FAQs</h2>
+      <h3>Do you collect data?</h3>
+      <p>No. MangoFunHouse does not collect personal data.</p>
+      <h3>Having trouble?</h3>
+      <p>Try force-closing and reopening the app. If the issue persists, email us with your device model and iOS version.</p>
+    </section>
+
+    <section class="card">
+      <h2>Policies</h2>
+      <p><a href="./privacy.html">Privacy Policy</a></p>
+      <p><a href="./terms.html">Terms of Use</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> MangoFunHouse. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
